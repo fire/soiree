@@ -1,4 +1,4 @@
-tool
+@tool
 extends EditorPlugin
 const inspector_plugin_class = preload("./inspector_mtoon.gd")
 
