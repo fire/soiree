@@ -7,3 +7,4 @@ sky_horizon_color = Color( 1, 1, 1, 1 )
 [resource]
 background_mode = 2
 background_sky = SubResource( 1 )
+tonemap_mode = 3
