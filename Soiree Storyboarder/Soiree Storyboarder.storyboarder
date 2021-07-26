@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
   "aspectRatio": "1.7777777777777777",
-  "fps": 24,
+  "fps": 30,
   "defaultBoardTiming": 2000,
   "boards": [
     {
@@ -265,7 +265,9 @@
           "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE"
         }
       },
-      "lineMileage": 0
+      "lineMileage": 0,
+      "dialogue": "",
+      "action": ""
     }
   ]
 }
