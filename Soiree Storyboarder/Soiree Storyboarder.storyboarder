@@ -14,6 +14,10 @@
           "url": "board-2-RTMTZ-shot-generator.png",
           "opacity": 1,
           "thumbnail": "board-2-RTMTZ-shot-generator-thumbnail.jpg"
+        },
+        "reference": {
+          "url": "board-2-RTMTZ-reference.png",
+          "opacity": 1
         }
       },
       "number": 1,
@@ -58,76 +62,78 @@
             "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
               "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
               "type": "camera",
-              "fov": 78.86888688868895,
-              "x": -1.2231574094192903,
-              "y": 0.8395936028639145,
-              "z": 1.275529280137155,
-              "rotation": 0,
-              "tilt": -0.26179938779915035,
+              "fov": 82.04920492049207,
+              "x": -0.5208978465027344,
+              "y": 0.46800826338321605,
+              "z": 1.8016045656076316,
+              "rotation": 0.0036593077081886706,
+              "tilt": -0.44365967410612456,
               "roll": 0,
-              "displayName": "Camera 1"
+              "displayName": "Camera 1",
+              "locked": false
             },
-            "C3AA83C1-29F8-49C8-B54A-AA13C4A3D939": {
-              "id": "C3AA83C1-29F8-49C8-B54A-AA13C4A3D939",
+            "54D03E54-79CD-4700-BF3B-78B42B47CF21": {
+              "id": "54D03E54-79CD-4700-BF3B-78B42B47CF21",
               "type": "object",
-              "model": "models/objects/fire.glb",
+              "model": "models/objects/MrMetaverse.glb",
               "tintColor": "#000000",
-              "width": 0.6,
-              "height": 0.6,
-              "depth": 0.6,
-              "x": 1.2798728589129111,
-              "y": -1.125710335854955,
-              "z": 0.0177539524435995,
+              "width": 1,
+              "height": 1,
+              "depth": 1,
+              "x": -1.08,
+              "y": -0.7,
+              "z": -0.030069303590862493,
               "rotation": {
                 "x": 0,
-                "y": 0,
+                "y": -0.008981813812218796,
                 "z": 0
               },
               "visible": true,
-              "displayName": "Fire.glb 1"
+              "displayName": "MrMetaverse.glb 1"
             },
-            "0E1995A0-B92D-436F-9CFB-5C21B1221216": {
-              "id": "0E1995A0-B92D-436F-9CFB-5C21B1221216",
+            "A71E85AC-CD44-41B4-B056-7100B9236A68": {
+              "id": "A71E85AC-CD44-41B4-B056-7100B9236A68",
               "type": "object",
               "model": "models/objects/humbletim.glb",
               "tintColor": "#000000",
               "width": 1,
               "height": 1,
               "depth": 1,
-              "x": -3.1272747804717187,
-              "y": -1.2871527359718518,
+              "x": 0.41120529456713484,
+              "y": -0.5030865276147761,
               "z": 0,
               "rotation": {
                 "x": 0,
-                "y": 0,
+                "y": -0.012389373781246056,
                 "z": 0
               },
               "visible": true,
               "displayName": "Humbletim.glb 1"
             },
-            "DC936031-BDFC-4786-B2AB-6E6E97098823": {
-              "id": "DC936031-BDFC-4786-B2AB-6E6E97098823",
+            "30690D87-37B7-46F1-B7C1-1ACAFB9B54C5": {
+              "id": "30690D87-37B7-46F1-B7C1-1ACAFB9B54C5",
               "type": "object",
-              "model": "models/objects/mr_metaverse.glb",
+              "model": "models/objects/magic_girl.glb",
               "tintColor": "#000000",
               "width": 1,
               "height": 1,
               "depth": 1,
-              "x": -0.9697354298579287,
-              "y": -1.1808788556996688,
-              "z": 0,
+              "x": -0.4289686126480068,
+              "y": -1.081709602143798,
+              "z": 0.012023476213217713,
               "rotation": {
                 "x": 0,
-                "y": 0.006487387067949894,
+                "y": 0.02364588621446737,
                 "z": 0
               },
               "visible": true,
-              "displayName": "Mr_metaverse.glb 1"
+              "displayName": "Magic_girl.glb 1"
             }
           },
           "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE"
         }
-      }
+      },
+      "lineMileage": 0
     }
   ]
 }
