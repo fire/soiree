@@ -1,0 +1,1203 @@
+{
+  "version": "3.0.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "529HS",
+      "url": "board-1-529HS.png",
+      "newShot": false,
+      "lastEdited": 1627311684622,
+      "layers": {},
+      "number": 1,
+      "shot": "1A",
+      "time": 0
+    },
+    {
+      "uid": "RTMTZ",
+      "url": "board-2-RTMTZ.png",
+      "newShot": false,
+      "lastEdited": 1627312182768,
+      "layers": {
+        "shot-generator": {
+          "url": "board-2-RTMTZ-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-2-RTMTZ-shot-generator-thumbnail.jpg"
+        }
+      },
+      "number": 2,
+      "shot": "2A",
+      "time": 2000,
+      "sg": {
+        "version": "3.0.0",
+        "data": {
+          "world": {
+            "ground": true,
+            "backgroundColor": 15066597,
+            "room": {
+              "visible": false,
+              "width": 10,
+              "length": 10,
+              "height": 3
+            },
+            "environment": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "grayscale": true
+            },
+            "ambient": {
+              "intensity": 0.5
+            },
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "fog": {
+              "visible": true,
+              "far": 40
+            },
+            "shadingMode": "Outline"
+          },
+          "sceneObjects": {
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "type": "camera",
+              "fov": 42.392014201420146,
+              "x": -0.8300989874896201,
+              "y": 3.211557412543817,
+              "z": 2.3416544066626592,
+              "rotation": -0.027478774948681138,
+              "tilt": 0.012494591347643148,
+              "roll": -5.421434040002645e-20,
+              "displayName": "Camera 1"
+            },
+            "D3826932-9949-44F9-ACAA-51FD9F12774B": {
+              "id": "D3826932-9949-44F9-ACAA-51FD9F12774B",
+              "type": "character",
+              "height": 1.6,
+              "model": "models/characters/humbletim.glb",
+              "x": -1.78,
+              "y": 1.2798281038256012,
+              "z": 0,
+              "rotation": -0.0032813719498999173,
+              "headScale": 1,
+              "tintColor": "#000000",
+              "morphTargets": {
+                "mesomorphic": 0,
+                "ectomorphic": 0,
+                "endomorphic": 0
+              },
+              "skeleton": {
+                "Hips": {
+                  "rotation": {
+                    "x": 0.9951814629349318,
+                    "y": 0.00000460074739071566,
+                    "z": -3.141591577266823
+                  },
+                  "name": "Hips"
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -2.0014297297185104,
+                    "y": -7.80889459227113e-7,
+                    "z": 0.000004617726818821241
+                  },
+                  "name": "Spine"
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": 2.887630664956999e-7,
+                    "y": -2.3819767235543864e-7,
+                    "z": -2.5630240235640386e-10
+                  },
+                  "name": "Spine1"
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.015412942670398489,
+                    "y": 1.592025955373243e-7,
+                    "z": 9.189939712066403e-8
+                  },
+                  "name": "Spine2"
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": -0.4375930758241996,
+                    "y": 7.996479295429517e-8,
+                    "z": -8.486117241535105e-8
+                  },
+                  "name": "Neck"
+                },
+                "Head": {
+                  "rotation": {
+                    "x": -0.24082396449123797,
+                    "y": -0.0030089791835873603,
+                    "z": -0.005178266140992973
+                  },
+                  "name": "Head"
+                },
+                "LeftEye": {
+                  "rotation": {
+                    "x": -1.3669043083552787e-7,
+                    "y": 9.283973921348144e-10,
+                    "z": 1.2153413310776755e-8
+                  },
+                  "name": "LeftEye"
+                },
+                "RightEye": {
+                  "rotation": {
+                    "x": -1.366519803229519e-7,
+                    "y": -2.113997779438311e-8,
+                    "z": -2.4071892738774404e-10
+                  },
+                  "name": "RightEye"
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": -2.0971779541349638,
+                    "y": -0.32451536149684423,
+                    "z": 1.4484185820313489
+                  },
+                  "name": "LeftShoulder"
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.2866364519341213,
+                    "y": -0.2562401394379908,
+                    "z": -0.014304270443177424
+                  },
+                  "name": "LeftArm"
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.00796482292426183,
+                    "y": -0.006988793474410531,
+                    "z": -0.0018680620556581697
+                  },
+                  "name": "LeftForeArm"
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": 0.07586354372716421,
+                    "y": -0.06862337098742007,
+                    "z": -0.17127063079465038
+                  },
+                  "name": "LeftHand"
+                },
+                "LeftHandThumb1": {
+                  "rotation": {
+                    "x": -0.15819652030892103,
+                    "y": 0.20058402470686865,
+                    "z": -0.5494374024072823
+                  },
+                  "name": "LeftHandThumb1"
+                },
+                "LeftHandThumb2": {
+                  "rotation": {
+                    "x": -0.18007708404159797,
+                    "y": 0.09218296430652695,
+                    "z": -0.09874625975376079
+                  },
+                  "name": "LeftHandThumb2"
+                },
+                "LeftHandThumb3": {
+                  "rotation": {
+                    "x": 0.16980246546575445,
+                    "y": -0.061517393650711315,
+                    "z": 0.06697172637633561
+                  },
+                  "name": "LeftHandThumb3"
+                },
+                "LeftHandIndex1": {
+                  "rotation": {
+                    "x": -0.0006708432275071808,
+                    "y": -0.000598364006929392,
+                    "z": -0.1668417099490627
+                  },
+                  "name": "LeftHandIndex1"
+                },
+                "LeftHandIndex2": {
+                  "rotation": {
+                    "x": -0.09993301606625561,
+                    "y": 0.06156803413778875,
+                    "z": 0.011124914592917331
+                  },
+                  "name": "LeftHandIndex2"
+                },
+                "LeftHandIndex3": {
+                  "rotation": {
+                    "x": 0.09983779795140935,
+                    "y": -0.06259971194310651,
+                    "z": -0.0016228543028229934
+                  },
+                  "name": "LeftHandIndex3"
+                },
+                "LeftHandMiddle1": {
+                  "rotation": {
+                    "x": 0.07388574571892932,
+                    "y": -0.056041854113753356,
+                    "z": -0.014596227473418783
+                  },
+                  "name": "LeftHandMiddle1"
+                },
+                "LeftHandMiddle2": {
+                  "rotation": {
+                    "x": -0.11902543362369036,
+                    "y": 0.08642388184288483,
+                    "z": 0.017870123959341514
+                  },
+                  "name": "LeftHandMiddle2"
+                },
+                "LeftHandMiddle3": {
+                  "rotation": {
+                    "x": 0.21614919754918166,
+                    "y": -0.16101901751908512,
+                    "z": -0.005380645458827908
+                  },
+                  "name": "LeftHandMiddle3"
+                },
+                "LeftHandRing1": {
+                  "rotation": {
+                    "x": 0.11945549969948052,
+                    "y": -0.07236154451931152,
+                    "z": 0.17912366876895813
+                  },
+                  "name": "LeftHandRing1"
+                },
+                "LeftHandRing2": {
+                  "rotation": {
+                    "x": -0.026660804810301593,
+                    "y": 0.02409234244174285,
+                    "z": 0.004709071813749672
+                  },
+                  "name": "LeftHandRing2"
+                },
+                "LeftHandRing3": {
+                  "rotation": {
+                    "x": -0.03293973491556284,
+                    "y": 0.029575490339657284,
+                    "z": 0.0025974026494827254
+                  },
+                  "name": "LeftHandRing3"
+                },
+                "LeftHandPinky1": {
+                  "rotation": {
+                    "x": 0.2402401805656654,
+                    "y": -0.09648847379848553,
+                    "z": 0.5001644231251213
+                  },
+                  "name": "LeftHandPinky1"
+                },
+                "LeftHandPinky2": {
+                  "rotation": {
+                    "x": -0.10336986174393398,
+                    "y": 0.12706611034285067,
+                    "z": 0.026255518637246646
+                  },
+                  "name": "LeftHandPinky2"
+                },
+                "LeftHandPinky3": {
+                  "rotation": {
+                    "x": 0.07536689601771919,
+                    "y": -0.09589071127005534,
+                    "z": -0.008963569682129382
+                  },
+                  "name": "LeftHandPinky3"
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": -2.0972422199798304,
+                    "y": 0.3250104593721945,
+                    "z": -1.4497794833911593
+                  },
+                  "name": "RightShoulder"
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.2789443766056841,
+                    "y": 0.24852798243899557,
+                    "z": 0.031877384592793115
+                  },
+                  "name": "RightArm"
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.007258736047222487,
+                    "y": 0.006257699541887404,
+                    "z": 0.0017854632045228693
+                  },
+                  "name": "RightForeArm"
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": 0.05850637487600404,
+                    "y": 0.04818247514305426,
+                    "z": 0.16498868859284765
+                  },
+                  "name": "RightHand"
+                },
+                "RightHandThumb1": {
+                  "rotation": {
+                    "x": -0.14628413495227865,
+                    "y": -0.20571531611686406,
+                    "z": 0.5689729590642292
+                  },
+                  "name": "RightHandThumb1"
+                },
+                "RightHandThumb2": {
+                  "rotation": {
+                    "x": -0.1250137621290453,
+                    "y": -0.05097945748943857,
+                    "z": 0.025378362211395014
+                  },
+                  "name": "RightHandThumb2"
+                },
+                "RightHandThumb3": {
+                  "rotation": {
+                    "x": -0.07911506738406945,
+                    "y": -0.024054535912059145,
+                    "z": -0.012249915854585514
+                  },
+                  "name": "RightHandThumb3"
+                },
+                "RightHandIndex1": {
+                  "rotation": {
+                    "x": 0.0070136881125124105,
+                    "y": 0.0030303366671698435,
+                    "z": 0.16830344518278564
+                  },
+                  "name": "RightHandIndex1"
+                },
+                "RightHandIndex2": {
+                  "rotation": {
+                    "x": -0.13358117831861321,
+                    "y": -0.08162789993162299,
+                    "z": -0.00919600873204749
+                  },
+                  "name": "RightHandIndex2"
+                },
+                "RightHandIndex3": {
+                  "rotation": {
+                    "x": 0.03943209180523805,
+                    "y": 0.02431523505647036,
+                    "z": 0.000970035604002901
+                  },
+                  "name": "RightHandIndex3"
+                },
+                "RightHandMiddle1": {
+                  "rotation": {
+                    "x": 0.07264873668071363,
+                    "y": 0.05428806850790892,
+                    "z": 0.014013324335113417
+                  },
+                  "name": "RightHandMiddle1"
+                },
+                "RightHandMiddle2": {
+                  "rotation": {
+                    "x": -0.1394649987488201,
+                    "y": -0.10029410483621196,
+                    "z": -0.01501160861108955
+                  },
+                  "name": "RightHandMiddle2"
+                },
+                "RightHandMiddle3": {
+                  "rotation": {
+                    "x": 0.1741579786565545,
+                    "y": 0.12694385259215707,
+                    "z": -0.004149149820479798
+                  },
+                  "name": "RightHandMiddle3"
+                },
+                "RightHandRing1": {
+                  "rotation": {
+                    "x": 0.12354897618827522,
+                    "y": 0.07545760258654108,
+                    "z": -0.2199282567115132
+                  },
+                  "name": "RightHandRing1"
+                },
+                "RightHandRing2": {
+                  "rotation": {
+                    "x": -0.053506877558592125,
+                    "y": -0.04944534198772985,
+                    "z": -0.007779411647588345
+                  },
+                  "name": "RightHandRing2"
+                },
+                "RightHandRing3": {
+                  "rotation": {
+                    "x": 0.017038932802165587,
+                    "y": 0.015910647241883725,
+                    "z": 0.002179761319066669
+                  },
+                  "name": "RightHandRing3"
+                },
+                "RightHandPinky1": {
+                  "rotation": {
+                    "x": 0.20739534111680794,
+                    "y": 0.09865561569244374,
+                    "z": -0.4402948952381337
+                  },
+                  "name": "RightHandPinky1"
+                },
+                "RightHandPinky2": {
+                  "rotation": {
+                    "x": -0.11436009475650044,
+                    "y": -0.13000363846455396,
+                    "z": -0.023893757285698855
+                  },
+                  "name": "RightHandPinky2"
+                },
+                "RightHandPinky3": {
+                  "rotation": {
+                    "x": -0.01690509980348156,
+                    "y": -0.019628732475648093,
+                    "z": 0.0025522682854861745
+                  },
+                  "name": "RightHandPinky3"
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.9485737943436835,
+                    "y": -0.02551746721389483,
+                    "z": 0.02435274120472658
+                  },
+                  "name": "LeftUpLeg"
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.016607211871984977,
+                    "y": -0.018235743399684375,
+                    "z": 0.017517698444107648
+                  },
+                  "name": "LeftLeg"
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0661912613932096,
+                    "y": -0.05789031473611321,
+                    "z": 0.08864337236031168
+                  },
+                  "name": "LeftFoot"
+                },
+                "LeftToeBase": {
+                  "rotation": {
+                    "x": 0.5197608437420956,
+                    "y": -0.03937888472790248,
+                    "z": -0.006009890692966364
+                  },
+                  "name": "LeftToeBase"
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.9461979873591327,
+                    "y": 0.025576862381147016,
+                    "z": -0.024356646563754546
+                  },
+                  "name": "RightUpLeg"
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.006492365221311783,
+                    "y": 0.018101135487221608,
+                    "z": -0.017280157191325127
+                  },
+                  "name": "RightLeg"
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.0391543126634577,
+                    "y": 0.05934789847133875,
+                    "z": -0.09291663676533025
+                  },
+                  "name": "RightFoot"
+                },
+                "RightToeBase": {
+                  "rotation": {
+                    "x": 0.5380187529418027,
+                    "y": 0.042024199048239695,
+                    "z": 0.007769562285299033
+                  },
+                  "name": "RightToeBase"
+                }
+              },
+              "visible": true,
+              "displayName": "Humbletim.glb 1"
+            },
+            "7F0AD9C3-1CEE-47D4-BD57-6A88E370FC2E": {
+              "id": "7F0AD9C3-1CEE-47D4-BD57-6A88E370FC2E",
+              "type": "character",
+              "height": 1.6,
+              "model": "models/characters/mr_metaverse.glb",
+              "x": 0.21,
+              "y": 1.1127500340465533,
+              "z": 0,
+              "rotation": -0.023322735234546057,
+              "headScale": 1,
+              "tintColor": "#000000",
+              "morphTargets": {
+                "mesomorphic": 0,
+                "ectomorphic": 0,
+                "endomorphic": 0
+              },
+              "skeleton": {
+                "armature_rootJoint": {
+                  "rotation": {
+                    "x": -3.1400159697633,
+                    "y": 6.023578579001768e-7,
+                    "z": 3.141592152069003
+                  },
+                  "name": "armature_rootJoint"
+                },
+                "Bone_armature": {
+                  "rotation": {
+                    "x": 0.06945794787462697,
+                    "y": 0.001370045545420442,
+                    "z": 0.0012796460161404698
+                  },
+                  "name": "Bone_armature"
+                },
+                "hips_armature": {
+                  "rotation": {
+                    "x": 0.11666471567797794,
+                    "y": 0.0001550891983061054,
+                    "z": 0.0002710043376606747
+                  },
+                  "name": "hips_armature"
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": 0.07360456480388146,
+                    "y": 0.00010544401831976025,
+                    "z": 0.00018162307999568464
+                  },
+                  "name": "Spine"
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -0.2457129379178113,
+                    "y": -0.00022133792817428667,
+                    "z": -0.0006244461415595351
+                  },
+                  "name": "Spine1"
+                },
+                "chest_armature": {
+                  "rotation": {
+                    "x": -0.17671289979354396,
+                    "y": -0.00013694565352511895,
+                    "z": -0.0003989134689178492
+                  },
+                  "name": "chest_armature"
+                },
+                "clavicle_L_armature": {
+                  "rotation": {
+                    "x": -1.6405116961505386,
+                    "y": -0.22066974846828233,
+                    "z": 1.5165901882258976
+                  },
+                  "name": "clavicle_L_armature"
+                },
+                "upper_arm_L_armature": {
+                  "rotation": {
+                    "x": 0.2257867047024669,
+                    "y": -0.2145403714128953,
+                    "z": 0.029377519288292273
+                  },
+                  "name": "upper_arm_L_armature"
+                },
+                "lower_arm_L_armature": {
+                  "rotation": {
+                    "x": 0.0011945629608509179,
+                    "y": -0.001163296515502212,
+                    "z": -0.0007946902010589381
+                  },
+                  "name": "lower_arm_L_armature"
+                },
+                "hand_L_armature": {
+                  "rotation": {
+                    "x": -0.04973816232219731,
+                    "y": 0.06286752793957832,
+                    "z": -0.22951323970590556
+                  },
+                  "name": "hand_L_armature"
+                },
+                "middleL_armature": {
+                  "rotation": {
+                    "x": -0.09319330150077329,
+                    "y": 0.07978234060800754,
+                    "z": -0.05594188411596038
+                  },
+                  "name": "middleL_armature"
+                },
+                "middle1L_armature": {
+                  "rotation": {
+                    "x": -0.30812076181646847,
+                    "y": 0.2764217340774868,
+                    "z": -0.12077059985967924
+                  },
+                  "name": "middle1L_armature"
+                },
+                "middle2L_armature": {
+                  "rotation": {
+                    "x": 5.9263742364930346e-8,
+                    "y": -9.685551720954438e-8,
+                    "z": -2.2290434364755242e-7
+                  },
+                  "name": "middle2L_armature"
+                },
+                "indexL_armature": {
+                  "rotation": {
+                    "x": 0.008037060396406018,
+                    "y": 0.0033024514451528418,
+                    "z": -0.17716913024099754
+                  },
+                  "name": "indexL_armature"
+                },
+                "index1L_armature": {
+                  "rotation": {
+                    "x": -0.4113057336185928,
+                    "y": 0.26956040041919765,
+                    "z": -0.003449825019111554
+                  },
+                  "name": "index1L_armature"
+                },
+                "index2L_armature": {
+                  "rotation": {
+                    "x": -1.0368362657317765e-7,
+                    "y": 5.157306339637305e-7,
+                    "z": 2.0683308583113472e-7
+                  },
+                  "name": "index2L_armature"
+                },
+                "ringL_armature": {
+                  "rotation": {
+                    "x": -0.09914621604837962,
+                    "y": 0.07569581653114782,
+                    "z": 0.009027527834567691
+                  },
+                  "name": "ringL_armature"
+                },
+                "ring1L_armature": {
+                  "rotation": {
+                    "x": -0.34260696849784705,
+                    "y": 0.2724430248091419,
+                    "z": 0.003273995935491781
+                  },
+                  "name": "ring1L_armature"
+                },
+                "ring2L_armature": {
+                  "rotation": {
+                    "x": 9.44337062827538e-8,
+                    "y": 6.073884768196187e-8,
+                    "z": -5.5277354150818736e-8
+                  },
+                  "name": "ring2L_armature"
+                },
+                "pinkyL_armature": {
+                  "rotation": {
+                    "x": -0.1497216132224226,
+                    "y": 0.11046641844112448,
+                    "z": 0.03387371533549925
+                  },
+                  "name": "pinkyL_armature"
+                },
+                "pinky1L_armature": {
+                  "rotation": {
+                    "x": -0.27056159047902145,
+                    "y": 0.2107237932950053,
+                    "z": 0.024617684970139234
+                  },
+                  "name": "pinky1L_armature"
+                },
+                "pinky2L_armature": {
+                  "rotation": {
+                    "x": -1.2569475179404724e-7,
+                    "y": 6.6361787876393505e-9,
+                    "z": 2.278394914788903e-7
+                  },
+                  "name": "pinky2L_armature"
+                },
+                "thumbL_armature": {
+                  "rotation": {
+                    "x": -0.175833143672444,
+                    "y": 0.38533380603586437,
+                    "z": -0.8061801710887089
+                  },
+                  "name": "thumbL_armature"
+                },
+                "thumb1L_armature": {
+                  "rotation": {
+                    "x": -0.06780143650385195,
+                    "y": -0.03458232709173727,
+                    "z": 0.17157614132772409
+                  },
+                  "name": "thumb1L_armature"
+                },
+                "thumb2L_armature": {
+                  "rotation": {
+                    "x": 1.1402964460888676e-7,
+                    "y": -9.810950593863989e-8,
+                    "z": -1.74595205731482e-8
+                  },
+                  "name": "thumb2L_armature"
+                },
+                "clavicle_R_armature": {
+                  "rotation": {
+                    "x": -1.6375725083226387,
+                    "y": 0.22105547405973128,
+                    "z": -1.5213163573142563
+                  },
+                  "name": "clavicle_R_armature"
+                },
+                "upper_arm_R_armature": {
+                  "rotation": {
+                    "x": 0.2281432255677717,
+                    "y": 0.21719932180320842,
+                    "z": -0.031240883681931658
+                  },
+                  "name": "upper_arm_R_armature"
+                },
+                "lower_arm_R_armature": {
+                  "rotation": {
+                    "x": 0.0014243271384789243,
+                    "y": 0.0013971842283480372,
+                    "z": 0.0007739022756215943
+                  },
+                  "name": "lower_arm_R_armature"
+                },
+                "hand_R_armature": {
+                  "rotation": {
+                    "x": -0.0038581583395797796,
+                    "y": -0.005157598253958319,
+                    "z": 0.2304117072847284
+                  },
+                  "name": "hand_R_armature"
+                },
+                "middleR_armature": {
+                  "rotation": {
+                    "x": -0.09720534655833614,
+                    "y": -0.0797729269080936,
+                    "z": 0.04935798756373352
+                  },
+                  "name": "middleR_armature"
+                },
+                "middle1R_armature": {
+                  "rotation": {
+                    "x": -0.32109158395147186,
+                    "y": -0.2740496676743608,
+                    "z": 0.09777959971631645
+                  },
+                  "name": "middle1R_armature"
+                },
+                "middle2R_armature": {
+                  "rotation": {
+                    "x": 5.1783775381274325e-8,
+                    "y": -9.36156105686677e-8,
+                    "z": 8.498878455092822e-8
+                  },
+                  "name": "middle2R_armature"
+                },
+                "indexR_armature": {
+                  "rotation": {
+                    "x": -0.0035401269833193246,
+                    "y": -0.004323592445800628,
+                    "z": 0.17726791269061712
+                  },
+                  "name": "indexR_armature"
+                },
+                "index1R_armature": {
+                  "rotation": {
+                    "x": -0.4178783662527652,
+                    "y": -0.2646064542734038,
+                    "z": -0.023853367824192923
+                  },
+                  "name": "index1R_armature"
+                },
+                "index2R_armature": {
+                  "rotation": {
+                    "x": -4.65639142167037e-8,
+                    "y": -1.9447455438410646e-7,
+                    "z": 3.824704665780317e-8
+                  },
+                  "name": "index2R_armature"
+                },
+                "ringR_armature": {
+                  "rotation": {
+                    "x": -0.09883628365061976,
+                    "y": -0.07554616148196373,
+                    "z": -0.015482509670716611
+                  },
+                  "name": "ringR_armature"
+                },
+                "ring1R_armature": {
+                  "rotation": {
+                    "x": -0.3477710442610459,
+                    "y": -0.26916905865205226,
+                    "z": -0.02602569733392135
+                  },
+                  "name": "ring1R_armature"
+                },
+                "ring2R_armature": {
+                  "rotation": {
+                    "x": 1.4453564275083956e-7,
+                    "y": -7.478409554957348e-9,
+                    "z": 9.780555620697196e-8
+                  },
+                  "name": "ring2R_armature"
+                },
+                "pinkyR_armature": {
+                  "rotation": {
+                    "x": -0.148328276502339,
+                    "y": -0.1100877631362091,
+                    "z": -0.04340983748069463
+                  },
+                  "name": "pinkyR_armature"
+                },
+                "pinky1R_armature": {
+                  "rotation": {
+                    "x": -0.27195854762262156,
+                    "y": -0.20874366753474227,
+                    "z": -0.04208472839295623
+                  },
+                  "name": "pinky1R_armature"
+                },
+                "pinky2R_armature": {
+                  "rotation": {
+                    "x": 1.2433936561874885e-7,
+                    "y": 3.1056775087176726e-8,
+                    "z": 1.9961935809735162e-7
+                  },
+                  "name": "pinky2R_armature"
+                },
+                "thumbR_armature": {
+                  "rotation": {
+                    "x": -0.2315383384465308,
+                    "y": -0.4037398935459233,
+                    "z": 0.7725023129409698
+                  },
+                  "name": "thumbR_armature"
+                },
+                "thumb1R_armature": {
+                  "rotation": {
+                    "x": -0.056397806342313735,
+                    "y": 0.03364924247790098,
+                    "z": -0.1760163729823695
+                  },
+                  "name": "thumb1R_armature"
+                },
+                "thumb2R_armature": {
+                  "rotation": {
+                    "x": 1.0488665679296856e-7,
+                    "y": 1.7954113730000955e-8,
+                    "z": 1.2268863571705777e-7
+                  },
+                  "name": "thumb2R_armature"
+                },
+                "neck_armature": {
+                  "rotation": {
+                    "x": -0.180745202072954,
+                    "y": -0.00011675904470414762,
+                    "z": -0.00037676193612713103
+                  },
+                  "name": "neck_armature"
+                },
+                "head_armature": {
+                  "rotation": {
+                    "x": -0.30012340743554516,
+                    "y": -0.00012669970221964365,
+                    "z": -0.0005761530374511822
+                  },
+                  "name": "head_armature"
+                },
+                "jaw_armature": {
+                  "rotation": {
+                    "x": -1.5790691493214022,
+                    "y": 0.0008632314020179758,
+                    "z": -0.0017101614454207532
+                  },
+                  "name": "jaw_armature"
+                },
+                "under_lip_armature": {
+                  "rotation": {
+                    "x": 2.596766469079164,
+                    "y": 0.003474310641583479,
+                    "z": 0.00047147337490070383
+                  },
+                  "name": "under_lip_armature"
+                },
+                "under_lip_L_armature": {
+                  "rotation": {
+                    "x": 4.362621553779723e-13,
+                    "y": 2.2484415089340412e-10,
+                    "z": -1.587895010250636e-10
+                  },
+                  "name": "under_lip_L_armature"
+                },
+                "under_lip_R_armature": {
+                  "rotation": {
+                    "x": -1.8074639452603405e-10,
+                    "y": -2.377390449627542e-7,
+                    "z": -3.742662345040348e-11
+                  },
+                  "name": "under_lip_R_armature"
+                },
+                "jaw_L_armature": {
+                  "rotation": {
+                    "x": 2.1447216114267764e-7,
+                    "y": -2.2150849259539808e-8,
+                    "z": -2.6398159694358667e-8
+                  },
+                  "name": "jaw_L_armature"
+                },
+                "jaw_R_armature": {
+                  "rotation": {
+                    "x": 5.844345692042773e-8,
+                    "y": -2.1746140223066514e-8,
+                    "z": -2.6326339110843025e-8
+                  },
+                  "name": "jaw_R_armature"
+                },
+                "face_armature": {
+                  "rotation": {
+                    "x": -2.398311494176191,
+                    "y": 0.0015389139954195717,
+                    "z": -0.0011726720123255568
+                  },
+                  "name": "face_armature"
+                },
+                "up_lip_armature": {
+                  "rotation": {
+                    "x": -0.46245728808998054,
+                    "y": -0.0005361395328604454,
+                    "z": -0.00012155717070708976
+                  },
+                  "name": "up_lip_armature"
+                },
+                "up_lip_L_armature": {
+                  "rotation": {
+                    "x": 1.367991649063895e-10,
+                    "y": -4.803439948832429e-7,
+                    "z": 8.394027852830771e-8
+                  },
+                  "name": "up_lip_L_armature"
+                },
+                "up_lip_R_armature": {
+                  "rotation": {
+                    "x": 2.8109554929961018e-8,
+                    "y": -6.901130955935439e-7,
+                    "z": 8.065426688337373e-11
+                  },
+                  "name": "up_lip_R_armature"
+                },
+                "eye_L_armature": {
+                  "rotation": {
+                    "x": 8.343855260037124e-8,
+                    "y": -1.999977798891671e-7,
+                    "z": -7.63675500958732e-8
+                  },
+                  "name": "eye_L_armature"
+                },
+                "eye_R_armature": {
+                  "rotation": {
+                    "x": -8.34998422479925e-8,
+                    "y": -1.9988323472361177e-7,
+                    "z": 8.363725279781993e-12
+                  },
+                  "name": "eye_R_armature"
+                },
+                "up_lid_L_armature": {
+                  "rotation": {
+                    "x": 8.34320923309239e-8,
+                    "y": -2.00034295641098e-7,
+                    "z": 2.4203734047049553e-11
+                  },
+                  "name": "up_lid_L_armature"
+                },
+                "up_lid_R_armature": {
+                  "rotation": {
+                    "x": 1.1931351863087824e-7,
+                    "y": 3.8401994586686505e-8,
+                    "z": 3.736713115128236e-11
+                  },
+                  "name": "up_lid_R_armature"
+                },
+                "under_lid_L_armature": {
+                  "rotation": {
+                    "x": 1.193135555456785e-7,
+                    "y": 3.861589804554038e-8,
+                    "z": 4.335990949566922e-11
+                  },
+                  "name": "under_lid_L_armature"
+                },
+                "under_lid_R_armature": {
+                  "rotation": {
+                    "x": -8.349338449465829e-8,
+                    "y": -1.9985106381776309e-7,
+                    "z": -7.636303742552595e-8
+                  },
+                  "name": "under_lid_R_armature"
+                },
+                "eyebrow_L_armature": {
+                  "rotation": {
+                    "x": -0.81218186832916,
+                    "y": 0.16311350887561726,
+                    "z": 1.9264292111986443
+                  },
+                  "name": "eyebrow_L_armature"
+                },
+                "eyebrow_L001_armature": {
+                  "rotation": {
+                    "x": -1.2620744015622807e-7,
+                    "y": -2.260113757465351e-7,
+                    "z": -3.718961319123247e-7
+                  },
+                  "name": "eyebrow_L001_armature"
+                },
+                "eyebrow_R_armature": {
+                  "rotation": {
+                    "x": -0.8099437417230315,
+                    "y": -0.16647802500966496,
+                    "z": -1.9285357788786703
+                  },
+                  "name": "eyebrow_R_armature"
+                },
+                "eyebrow_R001_armature": {
+                  "rotation": {
+                    "x": 8.369475660902349e-8,
+                    "y": 1.8185141186045152e-7,
+                    "z": 2.3193220236920285e-7
+                  },
+                  "name": "eyebrow_R001_armature"
+                },
+                "head_L_armature": {
+                  "rotation": {
+                    "x": -2.6449875283122397,
+                    "y": -0.039513593578615114,
+                    "z": 0.034526328953215425
+                  },
+                  "name": "head_L_armature"
+                },
+                "head_L001_armature": {
+                  "rotation": {
+                    "x": 1.0998517819444423e-7,
+                    "y": 8.119100084235819e-9,
+                    "z": 3.0274324659708065e-8
+                  },
+                  "name": "head_L001_armature"
+                },
+                "head_R_armature": {
+                  "rotation": {
+                    "x": -2.6451242576116236,
+                    "y": 0.042557128897038686,
+                    "z": -0.03617499790642201
+                  },
+                  "name": "head_R_armature"
+                },
+                "head_R001_armature": {
+                  "rotation": {
+                    "x": 3.8177873921397175e-7,
+                    "y": 3.385489219130194e-8,
+                    "z": 1.1764637346384454e-7
+                  },
+                  "name": "head_R001_armature"
+                },
+                "upper_leg_R_armature": {
+                  "rotation": {
+                    "x": 3.0274430078821064,
+                    "y": -0.023309861108606063,
+                    "z": 0.0281799302217074
+                  },
+                  "name": "upper_leg_R_armature"
+                },
+                "lower_leg_R_armature": {
+                  "rotation": {
+                    "x": -0.2485786438649163,
+                    "y": 0.031802713487744265,
+                    "z": -0.020692222510353228
+                  },
+                  "name": "lower_leg_R_armature"
+                },
+                "foot_R_armature": {
+                  "rotation": {
+                    "x": 1.444508395754895,
+                    "y": 0.0010535870553881885,
+                    "z": -0.00003080399615340538
+                  },
+                  "name": "foot_R_armature"
+                },
+                "toes_R_armature": {
+                  "rotation": {
+                    "x": 2.7346915398703677e-7,
+                    "y": 3.8734602031247204e-7,
+                    "z": 6.136345255132857e-8
+                  },
+                  "name": "toes_R_armature"
+                },
+                "upper_leg_L_armature": {
+                  "rotation": {
+                    "x": 3.0274397875514163,
+                    "y": 0.028684005635087696,
+                    "z": -0.027616926431652856
+                  },
+                  "name": "upper_leg_L_armature"
+                },
+                "lower_leg_L_armature": {
+                  "rotation": {
+                    "x": -0.2485788518819737,
+                    "y": -0.032331555492105556,
+                    "z": 0.02056901876468231
+                  },
+                  "name": "lower_leg_L_armature"
+                },
+                "foot_L_armature": {
+                  "rotation": {
+                    "x": 1.4445089400235944,
+                    "y": 0.0010590659634754443,
+                    "z": -0.0000127746713797225
+                  },
+                  "name": "foot_L_armature"
+                },
+                "toes_L_armature": {
+                  "rotation": {
+                    "x": -4.853877045486964e-7,
+                    "y": 3.268139102944427e-8,
+                    "z": 4.096237174744913e-10
+                  },
+                  "name": "toes_L_armature"
+                }
+              },
+              "visible": true,
+              "displayName": "Mr_metaverse.glb 1"
+            },
+            "C3AA83C1-29F8-49C8-B54A-AA13C4A3D939": {
+              "id": "C3AA83C1-29F8-49C8-B54A-AA13C4A3D939",
+              "type": "object",
+              "model": "models/objects/fire.glb",
+              "tintColor": "#000000",
+              "width": 1.5,
+              "height": 1.5,
+              "depth": 1.5,
+              "x": 2.97,
+              "y": 1.27,
+              "z": 0.04163092866539929,
+              "rotation": {
+                "x": 0,
+                "y": -0.014017244974691334,
+                "z": 0
+              },
+              "visible": true,
+              "displayName": "Fire.glb 1"
+            }
+          },
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[remap]
+
+importer="JSON"
+type="JSONData"
+path="res://.import/yarn_script.json-d68348c39bae90e66f781efed9151ca1.res"
+
+[deps]
+
+source_file="res://soiree/dialog/yarn_script.json"
+dest_files=[ "res://.import/yarn_script.json-d68348c39bae90e66f781efed9151ca1.res" ]
+
+[params]
+
