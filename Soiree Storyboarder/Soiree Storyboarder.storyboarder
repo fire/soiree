@@ -150,6 +150,9 @@
         "reference": {
           "url": "board-2-RTMTZ-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-2-RTMTZ-fill.png"
         }
       },
       "number": 2,
@@ -265,7 +268,7 @@
           "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE"
         }
       },
-      "lineMileage": 0,
+      "lineMileage": 913.7551434598003,
       "dialogue": "",
       "action": ""
     }
